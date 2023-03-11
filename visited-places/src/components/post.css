@@ -1,0 +1,33 @@
+.all-container{
+ display: flex;
+ flex-direction: row;
+ flex-wrap: wrap;
+}
+.post-container{
+    display: flex;
+    flex-direction: row;
+    padding:5px;
+    border-color:rgb(186, 186, 186) ;
+    border-width: 2px;
+    border-style: solid;
+    border-radius:8px;
+    width:500px;
+    height: 220px;
+    align-items: center;
+}
+
+.img{
+    width:300px;
+    border: none;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+.description{
+    color: rgb(131, 124, 116);
+    font-family: 'Hind Madurai', sans-serif;
+}
+.name{
+    top:0;
+    font-size: 40px;
+    font-family: 'Hind Madurai', sans-serif;
+}

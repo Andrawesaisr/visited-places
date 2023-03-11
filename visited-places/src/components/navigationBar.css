@@ -1,0 +1,23 @@
+.navigation{
+    display:flex;
+    flex-direction: row;
+    top:0;
+    position: fixed;
+    overflow: hidden;
+
+    align-items: center;
+   justify-content: center;
+    background-color: rgba(196, 209, 144, 0.858);
+    width:100%;
+    color:white;
+    height:60px;
+  z-index: 100;
+}
+.earth-image{
+    margin:0;
+    margin-left:10px;
+    /* margin-top:28px; */
+}
+.header{
+    margin:0;
+}
